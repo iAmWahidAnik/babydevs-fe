@@ -2,20 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.common-width{
+    @apply max-w-7xl mx-auto
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+    font-family: 'SourGummy'; /*a name to be used later*/
+    src: url('./fonts/Sour_Gummy/SourGummy-Medium.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'RossoOne'; /*a name to be used later*/
+    src: url('./fonts/Russo_One/RussoOne-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Lexend'; /*a name to be used later*/
+    src: url('./fonts/Lexend/static/Lexend-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'LexendLight'; /*a name to be used later*/
+    src: url('./fonts/Lexend/static/Lexend-Thin.ttf'); /*URL to font*/
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.sour {
+    font-family: 'SourGummy';
+}
+.russo {
+    font-family: 'RossoOne';
+}
+.lexend {
+    font-family: 'Lexend';
+}
+.lexendLight {
+    font-family: 'LexendLight';
 }
