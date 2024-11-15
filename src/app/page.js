@@ -1,5 +1,5 @@
-'use client'
-import { Player, Controls } from '@lottiefiles/react-lottie-player'
+// 'use client'
+// import { Player, Controls } from '@lottiefiles/react-lottie-player'
 import Link from 'next/link'
 
 export default function Home () {
@@ -26,7 +26,7 @@ export default function Home () {
             {/* <button className='p-20 rounded-full bg-white/20 shadow-lg sour hover:rotate-180 transition-all duration-500'>
               p
             </button> */}
-            <Link href={"/portfolio"}>
+            {/* <Link href={"/portfolio"}>
               <button>
                 <Player
                   src='https://lottie.host/551847e2-d146-46f3-ae9f-a2c2d6f8890f/zioAkWZkav.json'
@@ -35,7 +35,9 @@ export default function Home () {
                   autoplay
                 />
               </button>
-            </Link>
+            </Link> */}
+            {/* <iframe className='h-32 w-32' src="https://lottie.host/embed/551847e2-d146-46f3-ae9f-a2c2d6f8890f/zioAkWZkav.json"></iframe> */}
+            <img src="../../public/11.gif" alt="" />
           </div>
         </div>
       </div>
